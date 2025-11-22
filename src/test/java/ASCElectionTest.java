@@ -318,7 +318,7 @@ public class ASCElectionTest {
             "STAFF089",
             "Polling Station Officer",
             "Student Affairs",
-            2,
+            1,
             "E-Block Polling Station",
             4,
             "+233-24-987-6543",
@@ -329,7 +329,7 @@ public class ASCElectionTest {
         // Testing getters
         assertEquals("Mr. Emmanuel Nkrumah", officer2.getName());
         assertEquals("Polling Station Officer", officer2.getRole());
-        assertEquals(2, officer2.getYearsOfExperience());
+        assertEquals(1, officer2.getYearsOfExperience());
         assertEquals(4, officer2.getElectionsManaged());
         assertFalse(officer2.isChiefOfficer());
 
