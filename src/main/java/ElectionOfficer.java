@@ -167,9 +167,7 @@ public class ElectionOfficer {
     // toString Method
     @Override
     public String toString() {
-        return "---------------------------------------\n" +
-               "ELECTION OFFICER PROFILE\n" +
-               "---------------------------------------\n" +
+        return "ELECTION OFFICER PROFILE\n" +
                "Name: " + name + "\n" +
                "Staff ID: " + staffID + "\n" +
                "Title: " + getOfficerTitle() + "\n" +
@@ -179,7 +177,6 @@ public class ElectionOfficer {
                "Elections Managed: " + electionsManaged + "\n" +
                "Can Supervise: " + (canSuperviseOthers() ? "Yes" : "No") + "\n" +
                "Contact Phone: " + contactPhone + "\n" +
-               "Email: " + email + "\n" +
-               "---------------------------------------";
+               "Email: " + email + "\n";
     }
 }
