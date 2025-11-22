@@ -1,6 +1,3 @@
-/**
- * ElectionOfficer class represents staff members managing the ASC Elections
- */
 public class ElectionOfficer {
     // Attributes
     private String name;
@@ -44,7 +41,7 @@ public class ElectionOfficer {
         this.isChiefOfficer = isChiefOfficer;
     }
 
-    // Accessor Methods (Getters)
+    // Getters
     public String getName() {
         return name;
     }
@@ -85,7 +82,7 @@ public class ElectionOfficer {
         return isChiefOfficer;
     }
 
-    // Mutator Methods (Setters)
+    // Setters
     public void setName(String name) {
         this.name = name;
     }
@@ -126,7 +123,7 @@ public class ElectionOfficer {
         isChiefOfficer = chiefOfficer;
     }
 
-    // Business Methods
+    // Voting
     public void recordElectionManaged() {
         this.electionsManaged++;
     }
